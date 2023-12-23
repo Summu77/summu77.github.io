@@ -9,25 +9,23 @@
       
       
       
-        <link rel="prev" href="../../..">
+        <link rel="prev" href="../markdown/">
       
       
-        <link rel="next" href="../../../%E8%AF%BE%E7%A8%8B%E5%A4%8D%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%AC%AC%E4%BA%94%E7%AB%A0/">
       
-      
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
     
     
       
-        <title>CVE-2023-21839 漏洞复现 - Whu-Summu77</title>
+        <title>mkdocs - Whu-Summu77</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,7 +44,7 @@
       
     
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -72,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cve-2023-21839" class="md-skip">
+        <a href="#mkdocs" class="md-skip">
           跳转至
         </a>
       
@@ -86,7 +84,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="../../.." title="Whu-Summu77" class="md-header__button md-logo" aria-label="Whu-Summu77" data-md-component="logo">
+    <a href="../.." title="Whu-Summu77" class="md-header__button md-logo" aria-label="Whu-Summu77" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -106,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CVE-2023-21839 漏洞复现
+              mkdocs
             
           </span>
         </div>
@@ -201,7 +199,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../.." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         
   
     
@@ -216,21 +214,17 @@
         
   
   
-    
-  
   
     
     
       
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../%E8%AF%BE%E7%A8%8B%E4%BD%9C%E4%B8%9A/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/CVE-2023-21839%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/" class="md-tabs__link">
           
   
   课程作业
@@ -257,7 +251,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../%E8%AF%BE%E7%A8%8B%E5%A4%8D%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%AC%AC%E4%BA%94%E7%AB%A0/" class="md-tabs__link">
+        <a href="../../%E8%AF%BE%E7%A8%8B%E5%A4%8D%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%AC%AC%E4%BA%94%E7%AB%A0/" class="md-tabs__link">
           
   
   课程复习
@@ -274,11 +268,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../../%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/git/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../git/" class="md-tabs__link">
           
   
   工具学习
@@ -311,7 +307,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Whu-Summu77" class="md-nav__button md-logo" aria-label="Whu-Summu77" data-md-component="logo">
+    <a href="../.." title="Whu-Summu77" class="md-nav__button md-logo" aria-label="Whu-Summu77" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -329,7 +325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -346,8 +342,6 @@
       
   
   
-    
-  
   
   
     
@@ -358,12 +352,12 @@
       
       
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -377,7 +371,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             课程作业
@@ -388,21 +382,19 @@
                 
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
         
           
           <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
@@ -416,7 +408,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
             信息系统安全
@@ -427,30 +419,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    CVE-2023-21839 漏洞复现
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../%E8%AF%BE%E7%A8%8B%E4%BD%9C%E4%B8%9A/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/CVE-2023-21839%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -459,92 +431,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      环境配置
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="环境配置">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      资源链接
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      可能出现的问题
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      复现记录
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="复现记录">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      环境说明
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      复现步骤
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -649,7 +535,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../%E8%AF%BE%E7%A8%8B%E5%A4%8D%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%AC%AC%E4%BA%94%E7%AB%A0/" class="md-nav__link">
+      <a href="../../%E8%AF%BE%E7%A8%8B%E5%A4%8D%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%AC%AC%E4%BA%94%E7%AB%A0/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -682,8 +568,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -692,12 +580,12 @@
       
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
@@ -711,7 +599,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             工具学习
@@ -725,7 +613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/git/" class="md-nav__link">
+      <a href="../git/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -746,7 +634,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/markdown/" class="md-nav__link">
+      <a href="../markdown/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -764,10 +652,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../%E5%B7%A5%E5%85%B7%E5%AD%A6%E4%B9%A0/mkdocs/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -776,6 +673,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -808,80 +706,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      环境配置
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="环境配置">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      资源链接
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      可能出现的问题
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      复现记录
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="复现记录">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      环境说明
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      复现步骤
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -895,61 +719,10 @@
                   
 
 
-<h1 id="cve-2023-21839">CVE-2023-21839 漏洞复现</h1>
+<h1 id="mkdocs">MkDocs</h1>
 <blockquote>
-<p>说明：作为一个安全小白，以下复现内容均基于 <a href="https://www.bilibili.com/video/BV1Qg4y1Z7Um/?spm_id_from=333.337.search-card.all.click&amp;vd_source=ae67b970bd4a0665fa92195df95aa1f3">阿颜的B站教程</a> 展开，为了不显得臃肿，这里我只记录部分流程和执行过程中遇到的问题，具体细节请参考原教程。</p>
+<p>由于mkdocs的资源非常丰富，这个板块将每天学习并且更新，每天进步一点点吧不求多了 ：）</p>
 </blockquote>
-<h2 id="_1">环境配置</h2>
-<h3 id="_2">资源链接</h3>
-<ul>
-<li>https://github.com/Mr-xn/JNDIExploit-1/releases/tag/v1.2</li>
-<li>https://github.com/vulhub/vulhub/tree/master</li>
-</ul>
-<h3 id="_3">可能出现的问题</h3>
-<ul>
-<li>正常安装完docker docker.io python3-pip docker-compose后，执行<code>docker-compose up -d</code>报错，提示<code>kwargs_from_env() got an unexpected keyword argument'ssl_version'</code>，解决方法参考<a href="https://github.com/docker/docker-py/issues/3194">github</a>：</li>
-</ul>
-<pre><code class="language-python">pip uninstall docker
-pip install docker==6.1.3
-</code></pre>
-<ul>
-<li>安装go时显示<code>Unable to locate package gccgo-go</code>，解决方案如下：</li>
-</ul>
-<pre><code class="language-python">sudo apt update
-pip install gccgo-go
-</code></pre>
-<ul>
-<li><code>git clone XXXXXX</code> 时失败，显示无法访问或者无法连接等问题，解决方案如下：</li>
-</ul>
-<blockquote>
-<p>在本机上下载好zip文件夹，使用Xftp上传到服务器上即可。</p>
-</blockquote>
-<h2 id="_4">复现记录</h2>
-<h3 id="_5">环境说明</h3>
-<ul>
-<li>靶机：服务器，操作系统为<code>Ubuntu-22.04-x64</code></li>
-</ul>
-<figure class="figure-image" style="text-align: center;">
-  <img src="../image-2.png" alt="An image caption" style="width: 80%; display: block; margin: 0 auto; border: 2px solid #000080; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);" />
-</figure>
-
-<ul>
-<li>攻击者：虚拟机，操作系统为<code>Kali-Linux-2022.2-vmware-amd64</code></li>
-</ul>
-<h3 id="_6">复现步骤</h3>
-<ul>
-<li>成功启动docker，顺利构建靶机环境如下所示：</li>
-</ul>
-<figure class="figure-image" style="text-align: center;">
-  <img src="../image.png" alt="An image caption" style="width: 80%; display: block; margin: 0 auto; border: 2px solid #000080; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);" />
-</figure>
-
-<ul>
-<li>成功实现漏洞攻击，如下图所示：</li>
-</ul>
-<figure class="figure-image" style="text-align: center;">
-  <img src="../image-1.png" alt="An image caption" style="width: 80%; display: block; margin: 0 auto; border: 2px solid #000080; border-radius: 10px; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);" />
-</figure>
 
 
 
@@ -1015,10 +788,10 @@ pip install gccgo-go
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
       
     
   </body>
