@@ -16,6 +16,7 @@ My research is currently focused on the frontier of **AI Safety**. I'm passionat
 
 # 🔥 News
 
+- **Jul 2026** 🎉 Our work DraftMind has been accepted by **ACM MM 2026**! (Paper will be open-sourced soon.)
 - **Jun 2026** 🎉 Our work Video-HolmesV2 has been accepted by **ECCV 2026**! (Paper will be open-sourced soon.) 
 - **May 2026** 🎉 Paper <a href="https://arxiv.org/abs/2601.19210">CSR</a> has been accepted by **ICML 2026**! Thanks to all co-authors!
 - **Mar 2026** 🎉 Our work <a href="https://ieeexplore.ieee.org/abstract/document/11481118">BIMM</a> has been accepted by **TCSVT 2026**! Thanks to all co-authors!
