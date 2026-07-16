@@ -20,7 +20,7 @@ My research focuses on visual understanding and reasoning of multimodal large la
 - **Jun 2026** 🎉 Our work Video-HolmesV2 has been accepted by **ECCV 2026**! (Paper will be open-sourced soon.) 
 - **May 2026** 🎉 Paper <a href="https://arxiv.org/abs/2601.19210">CSR</a> has been accepted by **ICML 2026**! Thanks to all co-authors!
 - **Mar 2026** 🎉 Our work <a href="https://ieeexplore.ieee.org/abstract/document/11481118">BIMM</a> has been accepted by **TCSVT 2026**!
-- **Feb 2026** 🎉 Paper <a href="https://arxiv.org/abs/2511.20223">V-Attack</a> is accepted by **CVPR 2026**! Thanks to all co-authors!
+- **Feb 2026** 🎉 Paper <a href="https://arxiv.org/abs/2511.20223">V-Attack</a> has been accepted by **CVPR 2026**! Thanks to all co-authors!
 - **Jan 2026** 🥇 Our team **AIST_ICT** achieved **1st place** in <a href="https://anti-bad.github.io/leaderboards/">Anti-BAD</a> (IEEE SaTML 2026)! Congratulations to all team members!
 - **Jun 2025** 🎓 Graduated from Wuhan University; awarded **Outstanding Graduate** and **Outstanding Undergraduate Thesis** honors.
 
