@@ -12,7 +12,7 @@ redirect_from:
 
 Hi! 🥰 I'm Sen Nie (聂森), a first-year Master's student at the [Visual Information Processing and Learning (VIPL)](http://vipl.ict.ac.cn/en/index.html) group, Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS). I also conduct research at the [State Key Laboratory of AI Safety](https://klais.ict.ac.cn), under the supervision of Profs. [Jie Zhang](https://jiezhang010.github.io/), [Shiguang Shan (IEEE Fellow)](https://scholar.google.com/citations?user=Vkzd7MIAAAAJ&hl=en), and [Xilin Chen (IEEE Fellow)](https://scholar.google.com/citations?user=vVx2v20AAAAJ&hl=en&oi=ao).
 
-My research is currently focused on the frontier of **AI Safety**. I'm passionate about building robust and trustworthy AI systems and am always open to collaboration or a good academic chat!
+My research focuses on visual understanding and reasoning of multimodal large language models (MLLMs), as well as their safety and reliability. I'm passionate about building robust and trustworthy AI systems and am always open to collaboration or a good academic chat!
 
 # 🔥 News
 
